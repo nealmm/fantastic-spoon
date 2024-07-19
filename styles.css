@@ -1,0 +1,62 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1525610553991-2bede1a236e2?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: 100%;
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 20px;
+  opacity: 90%;
+}
+
+.logo {
+  font-size: 48pt;
+  font-weight: bold;
+}
+
+.links > a {
+  font-size: 18pt;
+  margin: 20px;
+}
+
+.links > a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+  width: 70%;
+  background-color: antiquewhite;
+  opacity: 90%;
+}
+
+.about {
+  padding: 20px;
+}
+
+.menu {
+  border: solid black;
+  width: 80%;
+  text-align: center;
+}
+
+td {
+  border: solid black;
+}
